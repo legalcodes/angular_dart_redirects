@@ -9,6 +9,8 @@
     }],
     "redirects": [
         { "source": "/", "destination": "https://jt-site-angulardart-1.firebaseapp.com", "type": 301 },
+        { "source": "/tutorials/get-data/fetch-data", "destination": "https://dartlang-org-staging-0.firebaseapp.com/tutorials/web/fetch-data", "type": 301 },
+        { "source": "/tutorials", "destination": "https://dartlang-org-staging-0.firebaseapp.com/tutorials/web", "type": 301 },
         { "source": "/dart-2", "destination": "https://dartlang-org-staging-0.firebaseapp.com/web/dart-2", "type": 301 },
         { "source": "/:path*", "destination": "https://jt-site-angulardart-1.firebaseapp.com/:path", "type": 301 }
     ]
